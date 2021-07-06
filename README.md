@@ -163,3 +163,55 @@ Types of non-relational databases:
 - Network-based: Based on graph theory, they are used for entities that are interconnected by multiple relationships. Ideal for storing complex relationships. Examples: neo4j, TITAN.
 - In-memory: They can be of varied structure, but their advantage lies in speed, since living in memory, data extraction is almost immediate. Examples: Memcached, Redis.
 - Optimized for searches: They can be of various structures, their advantage lies in the fact that complex queries and searches can be performed in a simple way. Examples: BigQuery, Elasticsearch.
+
+## Firebase
+Firebase is a Google service where you can outsource many elements to the cloud.
+### Data hierarchy:
+- Database
+- Collection
+- Document
+
+
+### Data types in Firestore:
+
+- String: Any type of alphanumeric value.
+- Number: Supports integers and floats.
+- Boolenan: The classic True and False values
+- Map: Allows to add a document inside another one.
+- Array: Allows to add a data set (multi type support) without name and identifier.
+- Null: Indicates that a value has not been defined.
+- Timestamp: Allows to store dates (saves year, month, day and time).
+- Geopoint: Stores a geographic location (latitude-longitude coordinates).
+- Reference: Allows to reference a document (relates two documents, no matter their collection).
+
+# Databases in real life 
+![image](https://user-images.githubusercontent.com/26840321/124565553-c66b7300-de07-11eb-9d17-9cd93e692b6c.png)
+## Big Data 
+Big Data is a concept born from the need to manage large amounts of data. The trend started with companies like YouTube when they had the need to store and consult a lot of information quickly.
+It is a big movement that consists in the use of different types of databases.
+
+## Data Warehouse 
+Data Warehouse is about storing massive amounts of data for posterity. It stores everything that is not living in the application but is necessary to have.
+It should serve to store data for a long period of time and this data should be usable to be able to find interesting issues for the business.
+
+## Data Mining 
+Data Mining is about mining data, extracting it from wherever it is (dead files, current database, etc...) and making sense of it to put it to use.
+
+## ETL (Extract, Transform, Load)
+ETL stands for Extract, Transform, Load. It is about taking data from dead files and converting it into something that is useful to the business.
+It also helps to take live data from the application, transform it and store it in a data warehouse periodically.
+
+## Business Intelligence 
+Business Intelligence is a very important part of data careers since it is the end point of data management. Its raison d'être is to have the information ready, clear, and have all the elements to make decisions in a company.
+It is necessary to have a good sensitivity to understand the business, its needs and the information that can lead to make decisions at the right time when making business intelligence.
+## Machine Learning 
+Machine Learning has varying meanings. It is a set of techniques involving artificial intelligence and pattern detection.
+Machine learning for data has a wide scope and is a step beyond business intelligence.
+It helps us to make models that find random patterns by finding unexpected correlations.
+It has two particular use cases:
+- Classification
+- Prediction
+
+## Data Science 
+Data Science is the application of all data processing techniques. In its purest form it has to do with people with a background in statistics and hard sciences.
+
